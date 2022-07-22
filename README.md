@@ -13,10 +13,27 @@
 
 ## *in local rep v2*
 1. delete .git dir
-2. git clone [ссылка на репозиторий]
+2. git clone [link]
 3. copy .git in project
 4. git status
 5. git add .
 6. git commit -m ''
 7. git push
 8. loggin-password(token)
+
+
+# **Create new-branch**
+## **v1**
+1. git branch 'new-branch'
+2. git checkout 'new-branch'
+## **v2**
+1. git checkout -b 'new-branch'
+
+# **Generate dependence**
+
+```
+pip freeze >requirements.txt
+```
+# **Setup dependence**
+
+
