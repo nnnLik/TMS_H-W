@@ -20,3 +20,20 @@
 6. git commit -m ''
 7. git push
 8. loggin-password(token)
+
+
+# **Create new-branch**
+## **v1**
+1. git branch 'new-branch'
+2. git checkout 'new-branch'
+## **v2**
+1. git checkout -b 'new-branch'
+
+# **Generate dependence**
+
+```
+pip freeze >requirements.txt
+```
+# **Setup dependence**
+
+
