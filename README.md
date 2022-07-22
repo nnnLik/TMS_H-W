@@ -13,7 +13,7 @@
 
 ## *in local rep v2*
 1. delete .git dir
-2. git clone [ссылка на репозиторий]
+2. git clone [link]
 3. copy .git in project
 4. git status
 5. git add .
