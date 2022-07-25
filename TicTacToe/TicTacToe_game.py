@@ -5,7 +5,26 @@ class TicTacToe(tkinter.Canvas):
     def __init__(self, window):
         super().__init__(window, width=300, height=300)
         self.state = [None, ] * 9
-        self.bind('<Button-1>', self.click)
+        self.bind('', self.click)
+
+    def get_winner(self):
+        variants = []
+
+        # колонки и столбцы
+        for i, j in enumerate(range(0, 9, 3)):
+            variants.append(self.state[j:j + 3])
+            variants.append(self.state[i::3])
+
+        # две диагонали
+        variants.append(self.state[::4])
+        variants.append(self.state[2:7:2])
+
+        if ['x', ] * 3 in variants:
+            return 'x_win'
+        elif ['o', ] * 3 in variants:
+            return 'o_win'
+        elif None not in self.state:
+            return 'draw'
 
     def bot_move(self):
         indexes = []
