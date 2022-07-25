@@ -1,10 +1,20 @@
 import tkinter
+import random
 
 class TicTacToe(tkinter.Canvas):
     def __init__(self, window):
         super().__init__(window, width=300, height=300)
         self.state = [None, ] * 9
         self.bind('<Button-1>', self.click)
+
+    def bot_move(self):
+        indexes = []
+        for index, e in enumerate(self.state):
+            if e is None:
+                indexes.append(index)
+        index = random.choice(indexes)
+        self.state[index] = 'o'
+        self.add_o(index % 3, int(index / 3))
 
     def click(self, event):
         column = int(event.x / 100)
@@ -13,6 +23,7 @@ class TicTacToe(tkinter.Canvas):
         if self.state[index] is None:
             self.state[index] = 'x'
             self.add_x(column, row)
+            self.bot_move()
 
 
     def add_x(self, column, row):
