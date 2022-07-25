@@ -36,4 +36,8 @@ pip freeze >requirements.txt
 ```
 # **Setup dependence**
 
+```
+pip install -r requirements.txt 
+```
+
 
