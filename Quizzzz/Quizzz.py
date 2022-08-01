@@ -1,34 +1,34 @@
 Que = [
 
-    'Правда ли, что черепахи плачут?',
-    'Правда ли, что сказку «Цветик-семицветик» написал Пушкин?',
-    'Правда ли, что самые первые машины были двухколесными?',
-    'Правда ли, что крокодилы могут притворяться бревнами, спасаясь от врагов?',
-    'Правда ли, что Австралия – это самый большой материк?,'
-    'Правда ли, что блины выпекают из ржаной муки?',
-    'Правда ли, что Марс ближайшая к Солнцу планета?',
-    'Правда ли, что на Земле больше соленой воды, чем пресной?',
-    'Правда ли, что шакал является родственником собаки?',
-    'Правда ли, что для производства стекла используют глину?'
-    'Правда ли, что у человека есть среднее ухо?',
-    'Правда ли, что рассерженная божья коровка может укусить?',
-    'Правда ли, что археологи проектируют здания?',
-    'Правда ли, что в шахматах ферзь главнее королевы?',
-    'Правда ли, что белые мишки, охотясь на тюленей, свой черный нос прикрывают лапой?',
-    'Правда ли, что бумагу изобрели японцы?',
-    'Правда ли, что ножовкой пилят?',
-    'Правда ли, что куры купаются в пыли – это к хорошей погоде?',
-    'Правда ли, что коричневый цвет получают, смешивая красный и зеленый?',
-    'Правда ли, что в русском языке 10 гласных звуков?'
+    'Is it true that turtles cry?
+    'Is it true that Pushkin wrote the fairy tale 'The Seven-Flowered Man'?
+    'Is it true that the very first cars were two-wheeled?
+    'Is it true that crocodiles can pretend to be logs to escape their enemies?'
+    'Is it true that Australia is the largest continent?'
+    'Is it true that pancakes are baked from rye flour?'
+    'Is it true that Mars is the nearest planet to the Sun?
+    'Is it true that the Earth has more salt water than fresh water?'
+    'Is it true that the jackal is a relative of the dog?
+    'Is it true that clay is used to make glass?'
+    'Is it true that man has a middle ear?'
+    'Is it true that an angry ladybug can bite?'
+    'Is it true that archaeologists design buildings?'
+    'Is it true that in chess the queen is more important than the queen?
+    'Is it true that polar bears, when hunting seals, cover their black noses with their paws?'
+    'Is it true that the Japanese invented paper?
+    'Is it true that they saw with a hacksaw?
+    'Is it true that chickens bathe in dust - is it for good weather?'
+    'Is it true that brown is made by mixing red and green?
+    'Is it true that there are ten vowel sounds in the Russian language?'
 
 ]
 
 Answ = [
 
-    'Да', 'Нет', 'Нет', 'Нет',
-    'Нет', 'Нет', 'Нет', 'Да',
-    'Да', 'Нет', 'Да', 'Нет',
-    'Нет', 'Нет', 'Нет', 'Нет',
-    ' Да', 'Нет', 'Да', 'Нет'
+    'Yes', 'No', 'No', 'No,
+    'No', 'No', 'No', 'Yes',
+    'Yes', 'No', 'Yes', 'No',
+    'No', 'No', 'No', 'No,
+    ' Yes', 'No', 'Yes', 'No'
 
 ]
