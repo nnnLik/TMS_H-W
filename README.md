@@ -8,7 +8,7 @@
 3. create .gitignore
 4. git add.
 5. git commit -m 'first commit'
-6. git remove add origin http://....
+6. git remote add origin http://....
 7. git push -u origin master
 
 ## *in local rep v2*
