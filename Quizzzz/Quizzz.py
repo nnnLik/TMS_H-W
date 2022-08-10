@@ -8,6 +8,9 @@ class Quizzz:
         self.question=que
         self.correct_answer=crt_answ
         self.answers=answ
+        for i in range(len(self.answers)):
+            self.answers.insert(i, f"{i + 1}. {self.answers[i]}")
+            self.answers.pop(i + 1)
 
 
 
@@ -19,6 +22,10 @@ class Quizzz:
             return True
         else:
             return False
+
+    def __repr__(self):
+        return "\n" + self.question + "\n" + "\n".join(self.answers) + "\n" + f"Your points --> {Quizzz.score}"
+
 
 example1 = Quizzz(que='What is the capital of Poland?', crt_answ="Warsaw",
               answ=['Minsk', 'Warsaw', 'Brest'])
