@@ -22,7 +22,7 @@ Que = [
 
 Correct_answs = [
 
-    'Warshawa',
+    'Warsaw',
     'Washington',
     'Antananarivo'
 
@@ -31,7 +31,7 @@ Correct_answs = [
 Answers = [
 
     ['Minsk', 'Warshawa', 'Brest'],
-    ['Washington', 'Kazahstan', 'Kentucky'],
+    ['Washington', 'Kazakhstan', 'Kentucky'],
     ['Wakanda', 'Disney','Antananarivo']
 ]
 
