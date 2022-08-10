@@ -34,3 +34,10 @@ example2 = Quizzz(que='What is the capital of USA?', crt_answ="Washington",
 example3 = Quizzz(que='What is the capital of Madagascar?', crt_answ="Antananarivo",
               answ=['Wakanda', 'Disney','Antananarivo'])
 
+print(example1)
+print(example1.start)
+print(example2)
+print(example2.start)
+print(example3)
+print(example3.start)
+print(f"Final score --> {Mystery.points} points")
