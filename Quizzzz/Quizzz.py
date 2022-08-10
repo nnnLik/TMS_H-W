@@ -8,6 +8,11 @@ class Quizzz:
         self.question=que
         self.correct_answer=crt_answ
         self.answers=answ
+        shuffle(self.answers)
+        self.output()
+
+
+    def output(self):
         for i in range(len(self.answers)):
             self.answers.insert(i, f"{i + 1}. {self.answers[i]}")
             self.answers.pop(i + 1)
@@ -17,7 +22,7 @@ class Quizzz:
     @property
     def start(self):
 
-        if self.answers[0][int(input("Enter the answer number - ")) - 1] == self.correct_answer:
+        if self.answers[int(input("Enter the answer number - ")) - 1][3:] == self.correct_answer:
             Quizzz.score += 1
             return True
         else:
@@ -40,4 +45,4 @@ print(example2)
 print(example2.start)
 print(example3)
 print(example3.start)
-print(f"Final score --> {Mystery.points} points")
+print(f"Final score --> {Quizzz.score} points")
